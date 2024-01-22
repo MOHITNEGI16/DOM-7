@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <div id="header">
+      <h1>LEADEAR BOARD</h1>
+      <form id="myForm">
+        <input type="text" placeholder="First Name" id="firstName" required />
+        <input type="text" placeholder="Last Name" id="lastName" required />
+        <input type="text" placeholder="Country" id="country" required />
+        <input type="number" placeholder="Player Score" id="score" required />
+        <input type="submit" value="Add Player" id="button" />
+      </form>
+    </div>
+
+    <div id="playersContainer">
+      <ul id="containingPlayer"></ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
