@@ -67,8 +67,9 @@ body {
   color: #eea47f;
 }
 
-.increment,
-.decrement,
-.delete:hover {
+.increment,.decrement,.delete{
   cursor: pointer;
+  padding: 10px;
+  border: 2px solid #eea47f  ;
+  border-radius: 10px;
 }
